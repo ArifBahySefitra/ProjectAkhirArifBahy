@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dipukul"
+    tools:ignore="SpeakableTextPresentCheck"
+    android:background="@drawable/bgkategori">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/talempongdipukul"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/talempong"
+            android:layout_marginTop="130dp"/>
+
+        <ImageView
+            android:id="@+id/kolintangdipukul"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/kolintang"
+            android:layout_marginTop="400dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Talempong"
+            android:layout_marginTop="310dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Kolintang"
+            android:layout_marginTop="570dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Back"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:width="100dp"
+            android:layout_marginLeft="280dp"
+            android:id="@+id/backdipukul"/>
+
+    </RelativeLayout>
+</ScrollView>
+
+
+
